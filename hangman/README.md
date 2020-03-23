@@ -1,21 +1,20 @@
 # Hangman
 
-**TODO: Add description**
+**Description**
+This project intends to provide all the logic needed to play the game hangman.
+
+This is a module, that along with Dictionary, TextClient and Gallows make the experience of playing the Hangman game. 
+
+It was implemented with the purpose of learning along with the course [Elixir for Programmers from Dave Thomas](https://codestool.coding-gnome.com/courses/elixir-for-programmers). 
+
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hangman` to your list of dependencies in `mix.exs`:
+First it is needed the Hangman dependency in your mix file. And the project dictionary in the same directory as the hangman directory. 
 
 ```elixir
 def deps do
   [
-    {:hangman, "~> 0.1.0"}
+    { :dictionary, path: "../dictionary"},
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hangman](https://hexdocs.pm/hangman).
-

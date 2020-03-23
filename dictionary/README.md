@@ -1,21 +1,20 @@
 # Dictionary
 
-**TODO: Add description**
+**Description**
+
+This project intends to get a file txt with some words and return one randomly, for the game hangman.
+
+This is a module. that along with Hangman, TextClient and Gallows make the experience of playing the Hangman game. 
+
+It was implemented with the purpose of learning along with the course [Elixir for Programmers from Dave Thomas](https://codestool.coding-gnome.com/courses/elixir-for-programmers). 
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `dictionary` to your list of dependencies in `mix.exs`:
+You can just make a clone of the project and add to your dependencies. 
 
 ```elixir
 def deps do
   [
-    {:dictionary, "~> 0.1.0"}
+    { :dictionary, path: "../dictionary"},
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/dictionary](https://hexdocs.pm/dictionary).
-
